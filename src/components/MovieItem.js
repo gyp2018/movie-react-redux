@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import './MovieItem.css';
 
-const MovieItem = ({title, poster}) => (
+const MovieItem = ({ title, poster, genres, synopsis }) => (
   <div className="card">
     <img className="card-img-top" src={poster} alt={title} />
     <div className="card-body">
